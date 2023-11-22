@@ -20,3 +20,8 @@ Route::get('/admin', function () {
 Route::get('/events', function () {
     return view('admin.events.index');
 });
+
+
+Route::get('/usuarios', function () {
+    return view('welcome');
+});
