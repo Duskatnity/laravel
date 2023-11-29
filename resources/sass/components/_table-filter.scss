@@ -1,0 +1,52 @@
+.filter {
+    align-self: center;
+    border: 5px;
+    border-color:white;
+    background-color: hsla(0, 0%, 0%, 0.486);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: $z-index-modal-filter;
+    width: 100%;
+ }
+
+.filter-content{
+    border: 2px solid;
+    border-color: white;
+    background-color: $primary-color;
+    padding: 5px;
+}
+
+.filter-form {
+    display:flex;
+    flex: 1;
+}
+
+.filter-footer{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+
+.filter-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.filter-option {
+    flex:1;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: flex;
+}
+
+.filter-confirm {
+    background-color: $accept-color;
+}
+
+.filter-cancel {
+    background-color: $cancel-color;
+}
